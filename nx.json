@@ -1,0 +1,28 @@
+{
+  "npmScope": "myworkspace",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "zupftuch": {
+      "tags": []
+    },
+    "zupftuch-e2e": {
+      "tags": [],
+      "implicitDependencies": ["zupftuch"]
+    },
+    "api": {
+      "tags": []
+    },
+    "api-interfaces": {
+      "tags": []
+    }
+  }
+}
