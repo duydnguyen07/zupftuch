@@ -1,8 +1,8 @@
 {
   "extends": "../../tslint.json",
   "rules": {
-    "directive-selector": [true, "attribute", "myworkspace", "camelCase"],
-    "component-selector": [true, "element", "myworkspace", "kebab-case"]
+    "directive-selector": [true, "attribute", "zupftuch", "camelCase"],
+    "component-selector": [true, "element", "zupftuch", "kebab-case"]
   },
   "linterOptions": {
     "exclude": ["!**/*"]

@@ -10,7 +10,7 @@
       },
       "root": "apps/zupftuch",
       "sourceRoot": "apps/zupftuch/src",
-      "prefix": "myworkspace",
+      "prefix": "zupftuch",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",

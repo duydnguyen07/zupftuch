@@ -7,6 +7,7 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "resolveJsonModule": true,
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
@@ -16,7 +17,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@myworkspace/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@zupftuch/api-interfaces": ["libs/api-interfaces/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
